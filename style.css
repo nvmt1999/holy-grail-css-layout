@@ -17,6 +17,7 @@
     "alias-head alias-head"
     "alias-content alias-content";
     color: #1e4040;
+    height: 100vh;
 }
 
 .outer-grid-hidden-nav {
@@ -38,9 +39,6 @@ img {
 /* HEADER */
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 2;
     grid-area: alias-head;
     background-color: #1e4040;
     color: #71d99e;
@@ -118,6 +116,7 @@ img {
     "alias-main"
     "alias-bar"
     "alias-footer";
+    overflow-y: scroll;
 }
 
 h2, h3 {
